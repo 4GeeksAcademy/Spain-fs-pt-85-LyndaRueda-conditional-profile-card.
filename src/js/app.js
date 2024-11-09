@@ -35,7 +35,7 @@ function render(variables = {}) {
     "Country"}`;
 
   const socialMediaPosition =
-    variables.socialMediaPosition === "left"
+    variables.socialMediaPosition === "position-left"
       ? "position-left"
       : "position-right";
   const twitter = variables.twitter
